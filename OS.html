@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <p>Online Shop | Prodcut Items</p>
+    </header>
+    <main>
+        <div id="search">
+            <div>
+                <input type="text" id="search-box" placeholder="Search Name">
+            </div>
+            <div>
+                <button class="buttons filter selected" data-buttons="All">All</button>
+                <button class="buttons filter" data-buttons="Tech">Tech</button>
+                <button class="buttons filter" data-buttons="Clothing">Clothing</button>
+                <button class="buttons filter" data-buttons="Health">Health</button>
+            </div>
+            <div>
+                <input type="number" placeholder="Search Price" id="search-value">
+                <button class="buttons" id="search-button">Search</button>
+            </div>
+        </div>
+        <div id="products">
+            <div class="product-item" data-category="tech">
+                <img src="./img/airpods.png" alt="Airpods-image">
+                <div class="name">Apple Airpods</div>
+                <div class="price">450 $</div>
+            </div>
+            <div class="product-item" data-category="clothing">
+                <img src="./img/bag.png" alt="Bag-image">
+                <div class="name">Bag</div>
+                <div class="price">60 $</div>
+            </div>
+            <div class="product-item" data-category="health">
+                <img src="./img/cream.png" alt="Cream-image">
+                <div class="name">Cream</div>
+                <div class="price">25 $</div>
+            </div>
+            <div class="product-item" data-category="tech">
+                <img src="./img/iphone.png" alt="Iphone-image">
+                <div class="name">Apple Iphone</div>
+                <div class="price">1400 $</div>
+            </div>
+            <div class="product-item" data-category="clothing">
+                <img src="./img/jacket.png" alt="jacket-image">
+                <div class="name">Jacket</div>
+                <div class="price">110 $</div>
+            </div>
+            <div class="product-item" data-category="health">
+                <img src="./img/shampoo.png" alt="Shampoo-image">
+                <div class="name">Shampoo</div>
+                <div class="price">15 $</div>
+            </div>
+            <div class="product-item" data-category="clothing">
+                <img src="./img/shoes.png" alt="shoes-image">
+                <div class="name">Shoes</div>
+                <div class="price">150 $</div>
+            </div>
+            <div class="product-item" data-category="health">
+                <img src="./img/vitamin.png" alt="Vitamin-image">
+                <div class="name">Vitamin Pills</div>
+                <div class="price">10 $</div>
+            </div>
+            <div class="product-item" data-category="tech">
+                <img src="./img/watch.png" alt="watch-image">
+                <div class="name">Apple Watch</div>
+                <div class="price">600 $</div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+</html>
